@@ -482,7 +482,7 @@
 					
 					<li class="nav-item dropdown" >
 						<a  href="#" class="nav_link link text-black dropdown-toggle" style="outline-style:none" data-toggle="dropdown-submenu" aria-expanded="true">
-						Quiénes somos.?
+						¿Quiénes somos?
 						</a>
 						<div class="dropdown-menu" style="background:#363637;">
 							<a class="text-black dropdown-item" href="http://www.itlalaguna.edu.mx/2014/Directorio/organigrama18.html">DIRECTORIO</a>

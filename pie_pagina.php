@@ -64,6 +64,8 @@
 		.sticky li p a{ text-decoration:none; color:#fff; text-shadow: 1px 1px #000;}
 		.sticky li p a:hover{text-decoration:underline;}
 
+
+		
         @media (min-width: 1200px) {
             .container {
                 max-width: 1300px;

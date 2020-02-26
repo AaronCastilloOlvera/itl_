@@ -312,158 +312,13 @@
 
 <body>
     
-	<!-- MENU GOBERNACIÓN -->
-	<header class="d-none d-md-block">
-		<nav class="navbar fixed-top" id="barraGobmx" style="background:#0b231e;border: 10px;">
-			<div class="container u-noPaddingContainer">                    
-				<a class="navbar-brand" style="padding-left: 8px;" href="https://www.gob.mx/">
-					<img src="https://framework-gb.cdn.gob.mx/landing/img/logoheader.svg" style="width: 8rem; margin-top: -2%; margin-bottom: -2%; margin-left: -15%;" height="29" alt="Página de inicio, Gobierno de México">
-				</a>
-				<div class="text-rigth barraGobmx-enlaces">
-				   <a href="https://www.gob.mx/gobierno" title="Gobierno" class="nav-link" style="color:#fff">
-						Gobierno
-					</a>
-					<a href="https://www.gob.mx/participa" title="Participación Ciudadana" class="nav-link" style="color:#fff">
-						Participa
-					</a>
-					<a href="https://datos.gob.mx" title="Datos Abiertos" class="nav-link" style="color:#fff">
-						Datos
-					</a>
-					<a href="https://www.gob.mx/busqueda" style="color:#fff">
-					<span class="sr-only">Búsqueda</span><svg class="svg-inline--fa fa-search fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg><!-- <i class="fas fa-search"></i> -->
-					</a>
-				</div>
-			</div>
-		</nav>
-	</header>
-	      
-    <!-- Encabezado principal -->
-	<div class="u-noPaddingContainer contenedorGobierno" style="z-index:1000;">
-		<div class="container-cabecera" style="padding-bottom:30px">
-			
-			<div class="row no-gutters">
-				<div class="col-sm-12" style="max-width:90%;text-align: center; " >
-					<div class="d-inline-block ipnLogo-enlace" style="">
-						<a href="https://www.gob.mx/" target="_blank" style="z-index:2001" id="pleca_1">
-							<img src="assets/files/main/img/pleca-gob1.png" alt="Gobierno de México" class="plecaGob gob">
-						</a>
-						 <a href="https://www.gob.mx/sep" target="_blank" style="z-index:2001" id="pleca_2">
-							<img src="assets/files/main/img/pleca-gob2.png" alt="Educación" class="plecaGob gob">
-						</a>
-						<a href="inicio.aspx"  style="z-index:2001" id="pleca_3">
-							<img  style="width:17%;height:auto; min-width:70px" src="assets/files/main/img/pleca_tecnm.jpg" alt="TecNM" class="plecaTECNM">
-						</a>
-						<a href="https:/www.itlalaguna.edu.mx/" target="_blank" style="z-index:2001" id="pleca_3">
-							<img src="img/itl2.jpeg" alt="ITL" class="pleca-gob1">
-						</a>
-						
-					</div>
-				</div>
-			</div>
-                
-			<!-- Menú Blanco
-			<div class="utileriasIpn" style="z-index:2000">  
-				<ul class="ulmenu">
-				
-					<li class="padre">
-						<a href="#">Alumnos</a>
-						<ul class="ulsubmenu">
-							<li ><a href="#">Contenido 1</a></li>
-							<li ><a href="#">Contenido 2</a></li>
-						</ul>
-					</li>
-					
-					<li class="padre">
-						<a href="#">Académicos</a>
-						<ul class="ulsubmenu">
-							<li ><a href="#">Contenido 1</a></li>
-							<li ><a href="#">Contenido 2</a></li>
-						</ul>
-					</li>
-					
-					<li class="padre">
-						<a href="#">Egresados</a>
-						<ul class="ulsubmenu">
-							<li ><a href="#">Contenido 1</a></li>
-							<li ><a href="#">Contenido 2</a></li>
-						</ul>
-					</li>
-					
-					<li class="padre">
-						<a href="#">Personal de Apoyo</a>
-						<ul class="ulsubmenu">
-							<li ><a href="#">Contenido 1</a></li>
-							<li ><a href="#">Contenido 2</a></li>
-						</ul>
-					</li>
-					
-					<li class="padre">
-						<a href="#">Estadística</a>
-						<ul class="ulsubmenu">
-							<li ><a href="#">Contenido 1</a></li>
-							<li ><a href="#">Contenido 2</a></li>
-						</ul>
-					</li>
-					
-					<li class="padre">
-						<a href="#">Transparencia TecNM</a>
-						<ul class="ulsubmenu">
-							<li ><a href="#">Contenido 1</a></li>
-							<li ><a href="#">Contenido 2</a>
-								<ul class="ulsubmenu">
-									<li><a href="#">Subcontenido 1</a></li>
-									<li><a href="#">Subcontenido 1</a></li>
-									<li><a href="#">Subcontenido 3</a></li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-				
-				</ul>
-			</div>-->
+	<?php include 'encabezado.php'?>
 
-			<!-- Opciones de accesibilidad 
-			<div class="contenedorAccesibilidad" style="z-index:2000; top: 5%;">  
-				<div class="idiomas text-right">
-					 <a href="https://login.microsoftonline.com/?whr=tecnm.mx" title="Correo Institucional" target="_blank">
-						<img style="height:8%;width:7%" src="images/banderas/correo-icono.png" alt="Buzón">
-					</a>
-					<a href="pdf/Calendario_Academico_2019-2020.pdf" title="Calendario Académico" target="_blank">
-						<img style="height:6%;width:7%" src="images/banderas/calendario-icono.png" alt="Calendario Académico">
-					</a>
-					<a href="inicio.aspx">
-						<img  style="height:6%;width:6%" src="images/banderas/china-icono.png" title="Mandarín" alt="Idioma Mandarín">
-					</a>
-					<a href="inicio.aspx">                            
-						<img style="height:6%;width:6%" src="images/banderas/usa-icono.png" title="Inglés" alt="Idioma Inglés">
-					</a>
-					<a href="inicio.aspx">
-						<img style="height:6%;width:6%" src="images/banderas/francia-icono.png" title="Francés" alt="Idioma Francés">
-					</a>
-					<a href="inicio.aspx" class="mr-3">
-						<img style="height:6%;width:6%" src="images/banderas/mexico-icono.png" title="Español" alt="Idioma Español">
-					</a>
-					
-					<img style="height:6%;width:6%;" title="Accesibilidad" src="images/banderas/ojo-icono.png" alt="Débil Visual" />
-					
-					<a class="btn--accesibilidad contraste">
-						<svg  class="svg-inline--fa fa-adjust fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="adjust" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path  fill="#1B396A" d="M8 256c0 136.966 111.033 248 248 248s248-111.034 248-248S392.966 8 256 8 8 119.033 8 256zm248 184V72c101.705 0 184 82.311 184 184 0 101.705-82.311 184-184 184z" ><title>Contraste</title></path></svg><!-- <i class="fas fa-adjust"></i>
-					</a>
-					<a class="btn--accesibilidad aumentaLetra " title="Aumentar letra" style="color:#1B396A" >A+</a>
-					<a class="btn--accesibilidad reduceLetra" title="Disminuir letra"  style="color:#1B396A">A-</a>
-					<a class="btn--accesibilidad resetLetra" title="Restablecer tamaño"  style="color:#1B396A">A </a>
-				</div>
-			</div> -->
-
-        </div>
-    </div>
-
-	<!-- Menú Azul -->
+	<!-- Menú Azul-->
 	<section class="menu cid-rD7NmT2EL6" id="menu2-0" >
-	<nav  id="" class="navbar navbar-default navbar-expand-md beta-menu navbar-inverse sub-navbar  navbar-dropdown align-items-center navbar-toggleable-md " style="background:#363637;">	
+	<nav  id="menu-principal" class="navbar navbar-default navbar-expand-md beta-menu navbar-inverse sub-navbar  navbar-dropdown align-items-center navbar-toggleable-md " style="background:#363637;">	
   
-	<!-- <div class="container">-->
-		<div class="container">
+	<div class="container">
 			<div class="navbar-header">
 			
 			<button style ="z-index:2000;" class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -474,124 +329,13 @@
 					<span style="border: 1px solid #fff; box-shadow: 0px 0px 2px 2px #000;"></span>​
 				</span>
 			</button>
-     
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav nav-dropdown" data-app-modern-menu="true">
-					
-			<!--	<li>
-					<div id="tecnmblanco" style="visibility:hidden; ">
-						<img alt="" style="width:7vw;height:7vh;position: relative;" src="img/itl.jpeg" />
-					</div>
-				</li> -->
-				
-				<li class="nav-item" >
-					<a class="link text-black" href="http://www.itlalaguna.edu.mx/">
-						<span class="icon-home" title="Inicio" aria-hidden="true"></span>
-					</a>
-				</li> 
-				
-				<li class="nav-item dropdown" >
-					<a  href="#" class="nav_link link text-black dropdown-toggle" style="outline-style:none" data-toggle="dropdown-submenu" aria-expanded="true">
-					Quienes somos.?
-					</a>
-					<div class="dropdown-menu" style="background:#363637;">
-						<a class="text-black dropdown-item" href="#">DIRECTORIO</a>
-						<a class="text-black dropdown-item" href="#">HISTORIA</a>
-						<a class="text-black dropdown-item" href="#">MISIÒN Y VISION</a>
-						<a class="text-black dropdown-item" href="#">UBICACION E INFRAESCTRUCTURA</a>
-						<a class="text-black dropdown-item" href="#">CUIDADO DEL MEDIO AMBIENTE</a>
-						<a class="text-black dropdown-item" href="#">MASCOTA Y LOGOS</a>
-						<a class="text-black dropdown-item" href="#">CONTACTO</a>
-						<a class="text-black dropdown-item" href="#">BUZON DE QUEJAS Y SUGERENCIAS</a>
-						<a class="text-black dropdown-item" href="#">CÓDIGO DE ÉTICA Y CONDUCTA</a>
-						<a class="text-black dropdown-item" href="#">TRANSPARENCIA</a>
 
-					</div>
-				</li>
-				
-				<li class="nav-item dropdown">
-					<a  href="#" class="nav_link link text-black dropdown-toggle" style="outline-style:none" data-toggle="dropdown-submenu" aria-expanded="true">
-					Oferta Educativa
-					</a>
-					<div class="dropdown-menu" style="background:#363637;">
-						<a class="text-black dropdown-item" href="#">NIVEL PROFESIONAL ASOCIADO</a>
-						<a class="text-black dropdown-item" href="#">NIVEL LICENCIATURA</a>
-						<a class="text-black dropdown-item" href="#">NIVEL POSGRADO</a>
-					</div>
-				</li>
-				
-				<li class="nav-item dropdown">
-					<a  href="#" class="nav_link link text-black dropdown-toggle" style="outline-style:none" data-toggle="dropdown-submenu" aria-expanded="true">
-					Aspirantes
-					</a>
-					<div class="dropdown-menu" style="background:#363637;">
-						<a class="text-black dropdown-item" href="#">SEMESTRE DE NIVELACION</a>
-						<a class="text-black dropdown-item" href="#">INGRESO LICENCIATURA</a>
-						<a class="text-black dropdown-item" href="#">INGRESO POSGRADO</a>
-						<a class="text-black dropdown-item" href="#">INGRESO A DISTANCIA</a>
-					</div>
-				</li>
-				
-				<li class="nav-item dropdown">
-					<a  href="#" class="nav_link link text-black dropdown-toggle" style="outline-style:none" data-toggle="dropdown-submenu" aria-expanded="true">
-					Alumnado
-					</a>
-					<div class="dropdown-menu" style="background:#363637;">
-						<a class="text-black dropdown-item" href="#">DIV. DE ESTUDIOS PROFESIONALES</a>
-						<a class="text-black dropdown-item" href="#">SERVICIOS ESCOLARES</a>
-						<a class="text-black dropdown-item" href="#">DESARROLLO ACADEMICO</a>
-						<a class="text-black dropdown-item" href="#">SERVICIOS EXTRAESCOLARES</a>
-
-					</div>
-				</li>
-				
-				<li class="nav-item dropdown">
-					<a  href="#" class="nav_link link text-black dropdown-toggle" style="outline-style:none" data-toggle="dropdown-submenu" aria-expanded="true">
-					Vinculación
-					</a>
-					<div class="dropdown-menu" style="background:#363637;">
-						<a class="text-black dropdown-item" href="#">SERVICIO SOCIAL</a>
-						<a class="text-black dropdown-item" href="#">PUBLICAR EN BOLSA DE TRABAJO</a>
-						<a class="text-black dropdown-item" href="#">SERVICIO EXTERNOS</a>
-						<a class="text-black dropdown-item" href="#">IDIOMAS</a>						
-
-					</div>
-				</li>
-
-				<li class="nav-item dropdown">
-					<a  href="#" class="nav_link link text-black dropdown-toggle" style="outline-style:none" data-toggle="dropdown-submenu" aria-expanded="true">
-					Personal
-					</a>
-					<div class="dropdown-menu" style="background:#363637;">
-						<a class="text-black dropdown-item" href="#">DOCENTES</a>
-						<a class="text-black dropdown-item" href="#">CONVOCATORIAS</a>
-						<a class="text-black dropdown-item" href="#">REGLAMENTOS</a>
-						<a class="text-black dropdown-item" href="#">PRODEP</a>
-					</div>
-				</li>
-				
-				<li class="nav-item dropdown">
-					<a  href="#" class="nav_link link text-black dropdown-toggle" style="outline-style:none" data-toggle="dropdown-submenu" aria-expanded="true">
-					Mejora Continua
-					</a>
-					<div class="dropdown-menu" style="background:#363637;">
-						<a class="text-black dropdown-item" href="#">CONTROL DE DOCUMENTOS</a>
-						<a class="text-black dropdown-item" href="#">SISTEMA DE GESTIÓN INTEGRAL</a>
-						<a class="text-black dropdown-item" href="#">SISTEMA DE G.DE IGUALDAD DE GÉNERO Y NO D</a>
-						<a class="text-black dropdown-item" href="#">BUZÓN DE QUEJAS Y SUGERENCIAS</a>						
-						<a class="text-black dropdown-item" href="#">INNOVACIÓN Y DESARROLLO (PIID ITLaguna)</a>						
-
-					</div>
-				</li>
-
-				
-			</ul>	 
-			</div>
+			
 		</div>
-		</div>	   
-    </nav>
-	</section>	
-<!--</div> -->
+	
+	</nav>
+	</section>
+
 	<!-- Slider -->
 	<section class="one-time principal">
 
@@ -607,6 +351,7 @@
 	<!-- Noticias -->
 
 	<table width="700" align="left" cellspacing="6px" cellpadding="10">
+	
     <?php 
     
     $conexion = mysqli_connect('localhost','usuario','pass','tecnoticias');//Version vieja mysql_connect('localhost', 'user', 'pass' );
@@ -647,8 +392,16 @@
         $row = mysqli_fetch_assoc($resul);
         $contadorS = $row['con'];
       }
-    ?>
+    ?>  
+
+
+ 
+
+
     <?php foreach($noticias as $noticia): ?>
+    	
+
+
 <tr>
   <!--inicia noticia1-->
   <?php 
@@ -901,196 +654,7 @@
 
 	</section>
 
-	<!-- Dirección y teléfono -->
-    <section class="cid-rD7PmpFJj8" id="footer2-7" style="padding-bottom:10px; background:#363637;border-width: 8px;" >
-    <div class="" style="background:#363637;">
-        <div class="media-container-row content mbr-white">
-            <div class="col-12 col-md-3 mbr-fonts-style display-7" style="font-family:Roboto,'Opens Sans', sans-serif" >
-                <p class="mbr-text" style="color:#fff">
-                    <strong style="color: yellow;">Dirección</strong>
-                    <br>
-                    <br>Blvd. Revolución y Av. Instituto Tecnológico de la Laguna, Torreón, Coahuila, C.P. 27000<br>
-                    <br>
-                    <br><strong style="color: yellow;">Contacto</strong>&nbsp;<br>
-                    <br>Email: webmaster@correo.itlalaguna.edu.mx&nbsp;<br>Teléfono: 52 (871) 705-13-13 <br></p>
-            </div>
-            <div class="col-12 col-md-3 mbr-fonts-style display-7" style="font-family:Roboto,'Opens Sans', sans-serif">
-                <p class="mbr-text"><strong style="color: yellow;">Enlaces</strong><br>
-                    <br>
-                    <a style="color:#fff" href="http://portaltransparencia.gob.mx/buscador/search/search.do?method=begin">Portal de Obligaciones de Transparencia</a><br>
-                    <a style="color:#fff" href="http://inicio.ifai.org.mx/SitePages/ifai.aspx">INAI</a><br>
-                    <a style="color:#fff" href="#" data-toggle="modal" data-target="#modalQuejas">Buzón de Sugerencias</a><br>
-                    
-                    <br>
-                    <br><strong style="color: yellow;">Número de Visitas:</strong>
-                </p>
-            </div>
-            <div class="col-12 col-md-6 foto_contenedor">
-					<div class="contenedor">
-						<embed src="img/ubicacionITL.jpeg" alt="Ubicación" width="100%" class="foto_ubicacion" />
-						
-						<a href="ubicacion.aspx" class="txt_centrado">Ver ubicación</a>
- 					</div>
-					<!--<iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCy9r70T3NYf3PhvVflTo0_zdif2_IoIYs&amp;q=place_id:ChIJn6wOs6lZwokRLKy1iqRcoKw" allowfullscreen=""></iframe>-->
-				</div>
-			</div>
-        <div class="footer-lower">
-            <div class="media-container-row">
-                <div class="col-sm-12">
-                    <hr>
-                </div>
-            </div>
-            <div class="media-container-row mbr-white" style="font-family:Roboto,'Opens Sans', sans-serif">
-                <div class="col-sm-6 copyright">
-                    <center><p class="mbr-text mbr-fonts-style display-7">© Copyright 2020 TecNM ITL - Todos los Derechos Reservados</p>
-                    <br />
-                    <p class="mbr-text mbr-fonts-style display-7">Última actualización: 18/02/2020</p>
-                </div></center>
-            </div>
-        </div>
-    </div>
-	</section>
- 
-	<!-- Menú lateral de Redes Sociales -->
-    <div class="sticky-container">
-		<ul class="sticky">
-			<li>
-				<img src="images/redes_sociales/facebook.png" width="32" height="32" alt="facebook">
-				<p><a href="https://www.facebook.com/teclaguna/" target="_blank">Me gusta en<br>Facebook</a></p>
-			</li>
-			<li>
-				<img src="images/redes_sociales/twitter.png" width="32" height="32" alt="Twitter">
-				<p><a href="https://twitter.com/itlalaguna" target="_blank">Síguenos en<br>Twitter</a></p>
-			</li>
-			<li>
-				<img src="images/redes_sociales/youtube.png" width="32" height="32" alt="YouYube">
-				<p><a href="https://www.youtube.com/channel/UCO4vjribIS5-Z08FJQBXmrA" target="_blank">Suscríbase en<br>YouYube</a></p>
-			</li>
-		</ul>
-	</div>
-
-    <script src="assets/files/main/js/jquery-3.3.1.min.js"></script>
-	<script src="assets/files/main/js/bootstrap.min.js"></script>
-	<script src="assets/files/main/js/bootstrap-image-gallery.min.js"></script>
-	<script src="assets/files/main/js/fontawesome-all.min.js"></script>
-	<script src="assets/files/main/js/loader.js"></script>
-	<script src="assets/files/main/js/owl.carousel.min.js"></script>
-	<script src="assets/files/main/js/index.onload.js"></script>
-	<script src="assets/files/main/js/featherlight.min.js"></script>
-    <script src="assets/web/assets/jquery/jquery.min.js"></script>
-	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
-	<script src="assets/facebook-plugin/facebook-script.js"></script>
-	<script src="assets/facebook-plugin/facebook-script.js"></script>
-	<script src="assets/smoothscroll/smooth-scroll.js"></script>
-	<script src="assets/dropdown/js/nav-dropdown.js"></script>
-	<script src="assets/dropdown/js/navbar-dropdown.js"></script>
-	<script src="assets/tether/tether.min.js"></script>
-	<script src="assets/parallax/jarallax.min.js"></script>
-	<script src="assets/viewportchecker/jquery.viewportchecker.js"></script>
-	<script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
-	<script src="assets/social-feed-plugin/codebird.min.js"></script>
-	<script src="assets/social-feed-plugin/moment.js"></script>
-	<script src="assets/social-feed-plugin/en-gb.js"></script>
-	<script src="assets/social-feed-plugin/doT.js"></script>
-	<script src="assets/social-feed-plugin/jquery.socialfeed.js"></script>
-	<script src="assets/social-feed-plugin/main.js"></script>
-	<script src="assets/theme/js/script.js"></script>
- 
-	<script> /* Configuración de los carrucel */
-		$(document).on('ready', function () {
-		
-			$('.one-time').slick({
-              dots: true,
-              infinite: true,
-              speed: 3000,
-              slidesToShow: 1,
-              adaptiveHeight: true,
-              adaptiveWidth: true,
-              autoplay: true,
-              autoplaySpeed: 4000,
-              arrows: false,
-              fade: true,
-              pauseOnHover: false
-			});
-
-			$('.center').slick({
-              dots: false,
-              infinite: true,
-              arrows: true,
-              autoplay: true,
-              autoplaySpeed: 4000,
-              centerMode: false,
-              centerPadding: '0px',
-              slidesToShow: 4,
-              responsive: [{
-                    breakpoint: 768,
-                    settings: {
-                        arrows: false,
-                        centerMode: true,
-                        centerPadding: '0px',
-                        slidesToShow: 3
-                    }
-                },{
-                    breakpoint: 480,
-                    settings: {
-                        arrows: false,
-                        centerMode: true,
-                        centerPadding: '0px',
-                        slidesToShow: 2
-                    }
-                }
-              ]
-			});
-
-			$('.anexo').slick({
-              dots: false, // puntos
-              infinite: true, 
-              arrows: true, // flechas
-              autoplay: true,
-              autoplaySpeed: 3500,
-              slidesToShow: 4,
-              pauseOnHover: true,
-              responsive: [{
-                    breakpoint: 768,
-                    settings: {
-                        arrows: false,
-                        slidesToShow: 3
-                    }
-                },{
-                    breakpoint: 480,
-                    settings: {
-                        arrows: false,
-                        centerPadding: '0px',
-                        slidesToShow: 2
-                    }
-                }
-              ]
-			});
-		});
-	</script>
-    
-	<script src="js/noticarrusel/slick.js"></script>
-    
-    <!-- <script src="assets/gobmx/gobmx.js"></script> -->
-	<footer class="main-footer">
-		<div class="list-info">
-		<div class="container">
-		<div class="row">
-			<div class="col-md-3">
-				<img data-v-9e928f9a="" src="https://framework-gb.cdn.gob.mx/landing/img/logoheader.svg" href="/" alt="logo gobierno de méxico" class="logo_footer" style=" width: 70%; max-width: 1000px;">
-			</div>
-			<div class="col-sm-3">
-			<h5>Enlaces</h5><ul><li><a href="https://participa.gob.mx" target="_blank" rel="noopener" title="Enlace abre en ventana nueva">Participa</a></li><li><a href="https://www.gob.mx/publicaciones" target="_blank" rel="noopener" title="Enlace abre en ventana nueva">Publicaciones Oficiales</a></li><li><a href="http://www.ordenjuridico.gob.mx" target="_blank" rel="noopener" title="Enlace abre en ventana nueva">Marco Jurídico</a></li><li><a href="https://consultapublicamx.inai.org.mx/vut-web/" target="_blank" rel="noopener" title="Enlace abre en ventana nueva">Plataforma Nacional de Transparencia</a></li></ul>
-			</div>
-			<div class="col-sm-3"><h5>¿Qué es gob.mx?</h5><p>Es el portal único de trámites, información y participación ciudadana. <a href="https://www.gob.mx/que-es-gobmx">Leer más</a></p><ul><li><a href="https://datos.gob.mx">Portal de datos abiertos</a></li><li><a href="https://www.gob.mx/accesibilidad">Declaración de accesibilidad</a></li><li><a href="https://www.gob.mx/privacidadintegral">Aviso de privacidad integral</a></li><li><a href="https://www.gob.mx/privacidadsimplificado">Aviso de privacidad simplificado</a></li><li><a href="https://www.gob.mx/terminos">Términos y Condiciones</a></li><li><a href="https://www.gob.mx/terminos#medidas-seguridad-informacion">Política de seguridad</a></li><li><a href="https://www.gob.mx/sitemap">Mapa de sitio</a></li></ul>
-			</div>
-			<div class="col-sm-3"><h5><a href="https://www.gob.mx/tramites/ficha/presentacion-de-quejas-y-denuncias-en-la-sfp/SFP54">Denuncia contra servidores públicos</a></h5><h5>Síguenos en</h5><ul class="list-inline"><li><a class="social-icon facebook" target="_blank" rel="noopener" title="Enlace abre en ventana nueva" href="https://www.facebook.com/gobmexico" aria-label="Facebook de presidencia"></a></li><li><a class="social-icon twitter" target="_blank" rel="noopener" title="Enlace abre en ventana nueva" href="https://twitter.com/GobiernoMX" aria-label="Twitter de presidencia"></a></li></ul>
-			</div>
-		</div>
-		</div>
-		</div>
-		<!--<div class="container-fluid footer-pleca"><div class="row"><div class="col"><br><br></div></div></div>-->
-	</footer>
+	<?php include 'pie_pagina.php'?>
   
   </body>
 </html>
